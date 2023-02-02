@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D818886298910670095AAC6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D818885298910670095AAC6 /* ListView.swift */; };
+		5D81888A298919160095AAC6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D818889298919160095AAC6 /* Photo.swift */; };
+		5D81888D29891DA50095AAC6 /* PhotoObserabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81888C29891DA50095AAC6 /* PhotoObserabe.swift */; };
+		5D81888F298923910095AAC6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81888E298923910095AAC6 /* DetailView.swift */; };
+		5D818891298B56630095AAC6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D818890298B56630095AAC6 /* TabBarView.swift */; };
+		5D818896298B647F0095AAC6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D818895298B647F0095AAC6 /* HomeView.swift */; };
+		5D818898298B64BD0095AAC6 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D818897298B64BD0095AAC6 /* NewsView.swift */; };
+		5D81889A298B65000095AAC6 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D818899298B65000095AAC6 /* MessageView.swift */; };
+		5D81889C298B653B0095AAC6 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81889B298B653B0095AAC6 /* MeView.swift */; };
+		5D81889F298B96A50095AAC6 /* HomeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81889E298B96A50095AAC6 /* HomeItemView.swift */; };
 		5D9974AA296FE2E100E9B1DB /* MyTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9974A9296FE2E100E9B1DB /* MyTestAppApp.swift */; };
 		5D9974AC296FE2E100E9B1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9974AB296FE2E100E9B1DB /* ContentView.swift */; };
 		5D9974AE296FE2E200E9B1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9974AD296FE2E200E9B1DB /* Assets.xcassets */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D818885298910670095AAC6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5D818889298919160095AAC6 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		5D81888C29891DA50095AAC6 /* PhotoObserabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoObserabe.swift; sourceTree = "<group>"; };
+		5D81888E298923910095AAC6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5D818890298B56630095AAC6 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5D818895298B647F0095AAC6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5D818897298B64BD0095AAC6 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		5D818899298B65000095AAC6 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		5D81889B298B653B0095AAC6 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		5D81889E298B96A50095AAC6 /* HomeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemView.swift; sourceTree = "<group>"; };
 		5D9974A6296FE2E100E9B1DB /* MyTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9974A9296FE2E100E9B1DB /* MyTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestAppApp.swift; sourceTree = "<group>"; };
 		5D9974AB296FE2E100E9B1DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +91,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D818887298918950095AAC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D818894298B64200095AAC6 /* DetailView */,
+				5D818893298B63FE0095AAC6 /* TabView */,
+				5D818892298B5D540095AAC6 /* ListView */,
+				5D9974AB296FE2E100E9B1DB /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D818888298918EA0095AAC6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5D81888B29891C0D0095AAC6 /* Entity */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5D81888B29891C0D0095AAC6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5D818889298919160095AAC6 /* Photo.swift */,
+				5D81888C29891DA50095AAC6 /* PhotoObserabe.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5D818892298B5D540095AAC6 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				5D818885298910670095AAC6 /* ListView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		5D818893298B63FE0095AAC6 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				5D81889D298B95FB0095AAC6 /* components */,
+				5D818890298B56630095AAC6 /* TabBarView.swift */,
+				5D818895298B647F0095AAC6 /* HomeView.swift */,
+				5D818897298B64BD0095AAC6 /* NewsView.swift */,
+				5D818899298B65000095AAC6 /* MessageView.swift */,
+				5D81889B298B653B0095AAC6 /* MeView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		5D818894298B64200095AAC6 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				5D81888E298923910095AAC6 /* DetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		5D81889D298B95FB0095AAC6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				5D81889E298B96A50095AAC6 /* HomeItemView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		5D99749D296FE2E100E9B1DB = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +179,9 @@
 		5D9974A8296FE2E100E9B1DB /* MyTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				5D818888298918EA0095AAC6 /* Domain */,
+				5D818887298918950095AAC6 /* Views */,
 				5D9974A9296FE2E100E9B1DB /* MyTestAppApp.swift */,
-				5D9974AB296FE2E100E9B1DB /* ContentView.swift */,
 				5D9974AD296FE2E200E9B1DB /* Assets.xcassets */,
 				5D9974AF296FE2E200E9B1DB /* Preview Content */,
 			);
@@ -257,8 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D81888D29891DA50095AAC6 /* PhotoObserabe.swift in Sources */,
+				5D81888F298923910095AAC6 /* DetailView.swift in Sources */,
+				5D81888A298919160095AAC6 /* Photo.swift in Sources */,
+				5D818898298B64BD0095AAC6 /* NewsView.swift in Sources */,
+				5D81889F298B96A50095AAC6 /* HomeItemView.swift in Sources */,
+				5D81889A298B65000095AAC6 /* MessageView.swift in Sources */,
 				5D9974AC296FE2E100E9B1DB /* ContentView.swift in Sources */,
+				5D818891298B56630095AAC6 /* TabBarView.swift in Sources */,
+				5D818896298B647F0095AAC6 /* HomeView.swift in Sources */,
 				5D9974AA296FE2E100E9B1DB /* MyTestAppApp.swift in Sources */,
+				5D81889C298B653B0095AAC6 /* MeView.swift in Sources */,
+				5D818886298910670095AAC6 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +528,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..MyTestApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyTestApp;
+				PRODUCT_NAME = MyTestApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,8 +557,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..MyTestApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyTestApp;
+				PRODUCT_NAME = MyTestApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
